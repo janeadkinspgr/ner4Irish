@@ -1,10 +1,7 @@
-| Folder/File       | Description                                                  |
-|-------------------|--------------------------------------------------------------|
-| Evaluation        | Contains `conlleval.py` file used for evaluation.            |
-| XLMRoberta        | Contains notebooks and evaluation files for NER task using the XLMRoberta model. |
-| gaBERT            | Contains notebooks and evaluation files for NER task using the gaBERT model. |
-| mBERT             | Contains notebooks and evaluation files for NER task using the mBERT model. |
-| archive           | Old training method.                                         |
-| Backtranslation.ipynb | Implements backtranslation on Dáil data to make a new training set. |
-| Results.csv       | Results for models trained and tested.                       |
-| error_analysis    | Error analysis run on the models for discussion in final report. |
+# Named Entity Recognition for the Irish Language
+
+## Contents:
+- [**`Annotation`**](./Annotation): This folder contains details to do with the annotation process of the data collected, in particular the guidelines to be followed throughout.
+- [**`Statistics`**](./Data/Statistics): This folder contains code run on the data collected to gain insight into the spread of entities across datasets.
+- [**`Models`**](./Models): This folder contains each model trained on the data and their evaluations.
+- [**`Data`**](./Data): This folder contains all of the data collected for the project.
