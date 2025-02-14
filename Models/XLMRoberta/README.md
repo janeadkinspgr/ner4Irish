@@ -1,6 +1,0 @@
-| Version | Details                                                                                                         |
-|---------|-----------------------------------------------------------------------------------------------------------------|
-| V1      | - Training: IUDT training set and Dáil transcripts <br/> - Validation: IUDT test set and Dáil transcripts <br/> - Test: IUDT test set and Dáil transcripts |
-| V2      | V1 with rule-based data augmentation                                                                            |
-| V3      | V1 with back-translation                                                                                         |
-
